@@ -1,5 +1,7 @@
 # Minimal Player
-
+<p align="center">
+<img width="420" height="595" alt="A5 - 2" src="https://github.com/user-attachments/assets/85ffbbcf-acc7-4567-b866-2f3be926f563" />
+</p>
 Minimal Player is a compact, robust, and highly optimized pocket MP3 player built around the **Raspberry Pi Pico**. Designed to bridge the gap between high-speed digital processing and clean analog audio output, it packs incredible audio fidelity into a pocket-sized form factor without any unnecessary bulk.
 
 ---
