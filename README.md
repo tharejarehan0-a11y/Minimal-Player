@@ -46,3 +46,23 @@ Here are the core components used to build the Minimal Player:
 * **2-Layer PCB Architecture:** The top layer is dedicated to wide power traces and signal routing, while the bottom layer acts as an unbroken **AGND/GND ground plane** to shield the headphones from digital processor hiss.
 * **Hardware Debouncing:** The rotary encoder features integrated RC low-pass filters (10 kΩ + 10 nF) on the rotation pins to guarantee smooth, skip-free volume steps.
 * **Power Isolation:** Thick power rivers (24 mils) are utilized from the USB-C bus through the TP4056 and into the Pico's voltage regulators to safely manage battery charging surges.
+
+# Schematics 
+
+<img width="1470" height="956" alt="Screenshot 2026-06-15 at 12 40 12 PM" src="https://github.com/user-attachments/assets/5edddf49-b923-4830-a87f-6e93ed8b63fe" />
+
+
+The schematics were not that difficult because both the newer components had the datasheets to be followed the TP4056A and the PAM DAC they were easy to setup but the newer things that i explored onto this project were the electrolytic capcitors and how they have more capacitors and i also learned about this like analog and digital signals are different but sometimes when you have a project where you are going whith a pcb design for only 2 layers you can have same ground for both of them so i had the same ground for both of them and the TP4056 helped a lot with having a stable current towards the pico so that it can run easily and at last the PAM is a machine when it comes to audio only via headphones and works with the 3 pin audio jack that i setted up. I also added rotatory encoder , the buttons and a micro sd card a usb c and a lithium battery which can be recharged 
+
+<br>
+
+# PCB
+<img width="1470" height="956" alt="Screenshot 2026-06-15 at 12 54 30 PM" src="https://github.com/user-attachments/assets/94ecb52f-38c6-4091-82ae-dcbe73b6e062" />
+
+Then I started with the PCB it was really the hard part to deal with. I started by placing all the components but there were like so many capacitors and resistors that were to be placed which made it so confusing to set it up . So I took the schematics as the reference and placed all the capacitors as it was in that and then I started with routing it and got to know that the traces with the power are to be kept thick and the digital can be thin so i did it all wrong at the first try but got it on the second try. Then was the time to fix the errors . I had like so many errors I had to deal with so i started with the short errors all the way to body malformed errors and stuff and did that at last by filling the zone with AGND as the net 
+
+<br>
+
+# CAD
+<img width="1470" height="956" alt="Screenshot 2026-06-15 at 12 53 39 PM" src="https://github.com/user-attachments/assets/eed1ba7f-6fb6-49c0-9304-37c50ef74d38" />
+Onshape is the best . I started by drawing two rectangles and then i extruded the part that was common to only one bigger rectangle in which with the same center was the other rectange and then i extruded it then i made the sketched for those tiny rectangular holes onto the sides of it and with the help of linear pattern i redrew them all easily and then i removed them from the sides to a certain extent to give a retro vibe then i imported the step file for the pcb and then what I did was i made the lower case and the upper case derived some parts and sketches drew the rotatory encoder the buttons . Imported the step files for the springs and the battery and then made the assembly that was it in all 
