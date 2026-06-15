@@ -25,19 +25,30 @@ The inspiration came from a blend of nostalgia and engineering curiosity:
 
 ## Bill of Materials (BOM)
 
-Here are the core components used to build the Minimal Player:
+The table below lists all components used in the Minimal Player, matching the exact footprints and values from the KiCad PCB design layout. 
 
-| Component Reference | Description | Qty | Package / Style | Purpose |
+| Designator | Value | Footprint | Qty | India Sourcing / Purchase Links |
 | :--- | :--- | :--- | :--- | :--- |
-| **A1** | Raspberry Pi Pico | 1 | Through-Hole Module | Main microcontroller; handles file parsing and I2S audio streaming. |
-| **U1** | TP4056 | 1 | SOP-8 / Thermal Pad | Lithium battery charger management IC with status LEDs. |
-| **U2** | PCM5102A | 1 | TSSOP-20 | Dedicated 32-bit I2S Audio DAC for crisp sound generation. |
-| **J1** | MicroSD Card Slot | 1 | Surface Mount (SMD) | SPI-based storage for holding your MP3/WAV library. |
-| **J3** | CUI Devices SJ1-3523N | 1 | 3-Pin Horizontal THT | Robust 3.5mm headphone jack for standard earphones. |
-| **EC11** | Bourns PEC11R | 1 | 5-Pin Vertical THT | Rotary encoder with built-in push switch for volume and track control. |
-| **C_Elec** | 10µF to 47µF Electrolytic | 4 | Radial THT (Polarized) | Bulk power stabilization reservoirs for the SD card, DAC, and Charger. |
-| **C_Cer** | 0.1µF / 10nF / 2.2nF | Var | 0805 / THT Ceramic | Decoupling capacitors and hardware low-pass RC filters. |
-| **R_Sig** | 470Ω / 10kΩ | Var | 0805 / THT | Current-limiting protection for the audio lines and encoder debouncing. |
+| **A1** | RaspberryPi_Pico | RaspberryPi_Pico_Common_THT | 1 | [Robu.in - Raspberry Pi Pico](https://robu.in/product/raspberry-pi-pico/) / [ElectronicsComp](https://www.electronicscomp.com/raspberry-pi-pico-board) |
+| **BT1** | Battery Connector | JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical | 1 | [Robu.in - JST PH 2.0mm Male Header](https://robu.in/product/jst-ph-2-0-2-pin-male-connector-straight/) |
+| **C1, C10, C11, C14, C15, C3** | $10\,\mu\text{F}$ | 0805 SMD Capacitor | 6 | [ElectronicsComp - 10uF 0805 Ceramic](https://www.electronicscomp.com/10uf-25v-0805-smd-capacitor) |
+| **C12** | $2.2\text{ nF}$ | 0805 SMD Capacitor | 1 | [ElectronicsComp - 2.2nF 0805 Ceramic](https://www.electronicscomp.com/2.2nf-50v-0805-smd-capacitor) |
+| **C13, R13** | 470 *(See Notes)* | 0805 SMD | 2 | [Resistor (470 $\Omega$)](https://www.electronicscomp.com/470-ohm-0805-smd-resistor) / [Capacitor (470 pF)](https://www.electronicscomp.com/470pf-50v-0805-smd-capacitor) |
+| **C2, C5, C6, C8, C9** | $0.1\,\mu\text{F}$ | 0805 SMD Capacitor | 5 | [ElectronicsComp - 0.1uF 0805 Ceramic](https://www.electronicscomp.com/0.1uf-50v-0805-smd-capacitor) |
+| **C4, C7** | $2.2\,\mu\text{F}$ | 0805 SMD Capacitor | 2 | [ElectronicsComp - 2.2uF 0805 Ceramic](https://www.electronicscomp.com/2.2uf-50v-0805-smd-capacitor) |
+| **D1, D2** | LED_Small | 0805 SMD LED | 2 | [Robu.in - 0805 SMD LED Kit](https://robu.in/product/0805-smd-led-diode-assortment-kit-5-colors/) |
+| **J1** | USB_C_Receptacle_14P | USB_C_Receptacle_HRO_TYPE-C-31-M-12 | 1 | [Robu.in - TYPE-C-31-M-12 Compatible 16P SMT](https://robu.in/product/usb-c-type-c-female-connector-16-pin-surface-mount/) |
+| **J2** | Micro_SD_Card Slot | microSD_HC_Molex_104031-0811 | 1 | [ElectronicsComp - Push-Push MicroSD Slot](https://www.electronicscomp.com/micro-sd-card-slot-socket-smd-push-push-type) / [DigiKey India - Molex Exact](https://www.digikey.in/en/products/detail/molex/1040310811/3044122) |
+| **J3** | AudioJack3 | Jack_3.5mm_CUI_SJ1-3523N_Horizontal | 1 | [DigiKey India - CUI SJ1-3523N Exact](https://www.digikey.in/en/products/detail/cui-devices/SJ1-3523N/738686) |
+| **R1, R11, R2** | $5.1\text{ k}\Omega$ | 0805 SMD Resistor | 3 | [ElectronicsComp - 5.1k 0805 Resistor](https://www.electronicscomp.com/5.1k-ohm-0805-smd-resistor) |
+| **R10** | $1.2\text{ k}\Omega$ | 0805 SMD Resistor | 1 | [ElectronicsComp - 1.2k 0805 Resistor](https://www.electronicscomp.com/1.2k-ohm-0805-smd-resistor) |
+| **R12, R14, R5, R6, R7, R8, TH1** | $10\text{ k}\Omega$ *(See Notes)* | 0805 SMD | 7 | [Resistor (10k $\Omega$)](https://www.electronicscomp.com/10k-ohm-0805-smd-resistor) / [NTC Thermistor](https://www.electronicscomp.com/10k-ntc-thermistor-smd-0805) |
+| **R3, R4** | $1\text{ k}\Omega$ | 0805 SMD Resistor | 2 | [ElectronicsComp - 1k 0805 Resistor](https://www.electronicscomp.com/1k-ohm-0805-smd-resistor) |
+| **R9** | 0.4 / 400 $\Omega$ | 0805 SMD Resistor | 1 | [ElectronicsComp - 0805 SMD Resistor Assortment](https://www.electronicscomp.com/0805-smd-resistor-kit-36-values) |
+| **SW1, SW2, SW3, SW4** | SW_SPST | SW_PUSH_6mm_H4.3mm | 4 | [Robu.in - 6x6x4.3mm Tactile Switch](https://robu.in/product/6x6x4-3mm-tactile-micro-push-button-switch-2-pin/) |
+| **SW5** | RotaryEncoder | RotaryEncoder_Bourns_Vertical_PEC12R | 1 | [ElectronicsComp - EC11/12 with Switch](https://www.electronicscomp.com/ec11-rotary-encoder-with-switch-20mm-half-shaft) / [DigiKey India - Bourns Exact](https://www.digikey.in/en/products/detail/bourns-inc/PEC12R-4220F-S0024/3780188) |
+| **U1** | TP4056-42-ESOP8 | SOIC-8-1EP (Exposed Thermal Pad) | 1 | [ElectronicsComp - TP4056 IC](https://www.electronicscomp.com/tp4056-linear-li-ion-battery-charger-ic) |
+| **U2** | PCM5102A | TSSOP-20_4.4x6.5mm_P0.65mm | 1 | [ElectronicsComp - PCM5102A IC](https://www.electronicscomp.com/pcm5102a-audio-dac-ic-tssop-20) / [DigiKey India - TI Original](https://www.digikey.in/en/products/detail/texas-instruments/PCM5102APWR/3055979) |
 
 ---
 
