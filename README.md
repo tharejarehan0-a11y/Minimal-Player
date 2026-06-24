@@ -2,24 +2,13 @@
 <p align="center">
 <img width="420" height="595" alt="A5 - 2" src="https://github.com/user-attachments/assets/85ffbbcf-acc7-4567-b866-2f3be926f563" />
 </p>
-Minimal Player is a compact, robust, and highly optimized pocket MP3 player built around the **Raspberry Pi Pico**. Designed to bridge the gap between high-speed digital processing and clean analog audio output, it packs incredible audio fidelity into a pocket-sized form factor without any unnecessary bulk.
+Minimal player is a device i can use to listen music in a compact way with only wired earphones offline and without worrying too much about the battery as it has a long battery life
 
 ---
 
 ## Why I Created This
 
-Most modern music devices are distracting. They come with touchscreens, internet connectivity, and endless notifications that pull you away from the music. I wanted to build something that strips away the noise—both literally and figuratively. 
-
-The goal was to create a dedicated, distraction-free audio player that focuses entirely on local playback with tactile hardware controls. Building it from scratch also provided the perfect opportunity to master the complexities of mixed-signal hardware design, hardware filtering (debouncing), and PCB power routing.
-
----
-
-## My Inspiration
-
-The inspiration came from a blend of nostalgia and engineering curiosity:
-* **The Early 2000s iPod Shuffle / Sansa Clip:** Devices that did one thing perfectly—play music at the click of a physical button.
-* **The Maker Movement:** Seeing the incredible power of the $4 Raspberry Pi Pico made me wonder how far its dual-core processor could be pushed in handling real-time audio decoding alongside file systems.
-* **Pure Audiophile Simplicity:** The desire to implement a dedicated high-quality DAC circuit directly tied to physical controls, bypassing complex operating systems altogether.
+The inspiration was from the need of having something i can carry everyday with me and listen music from with looking asthetic at the same times and some device with which i can use my wired earphones
 
 ---
 
