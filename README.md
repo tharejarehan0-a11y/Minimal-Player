@@ -18,7 +18,7 @@ The table below lists all components used in the Minimal Player, matching the ex
 
 | Designator | Value | Footprint | Qty | India Sourcing / Purchase Links |
 | :--- | :--- | :--- | :--- | :--- |
-| **A1** | RaspberryPi_Pico | RaspberryPi_Pico_Common_THT | 1 | [Robu.in - Raspberry Pi Pico](https://robu.in/product/raspberry-pi-pico/) / [ElectronicsComp](https://www.electronicscomp.com/raspberry-pi-pico-board) |
+| **A1** | RaspberryPi_Pico | RaspberryPi_Pico_Common_THT | 1 | [Robu.in - Raspberry Pi Pico](https://robu.in/product/raspberry-pi-pico/) |
 | **BT1** | Battery Connector | JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical | 1 | [Robu.in - JST PH 2.0mm Male Header](https://robu.in/product/jst-ph-2-0-2-pin-male-connector-straight/) |
 | **C1, C10, C11, C14, C15, C3** | $10\,\mu\text{F}$ | 0805 SMD Capacitor | 6 | [ElectronicsComp - 10uF 0805 Ceramic](https://www.electronicscomp.com/10uf-25v-0805-smd-capacitor) |
 | **C12** | $2.2\text{ nF}$ | 0805 SMD Capacitor | 1 | [ElectronicsComp - 2.2nF 0805 Ceramic](https://www.electronicscomp.com/2.2nf-50v-0805-smd-capacitor) |
