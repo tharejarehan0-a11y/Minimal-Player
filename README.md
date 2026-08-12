@@ -8,7 +8,26 @@ Minimal player is a device i can use to listen music in a compact way with only 
 
 ## Why I Created This
 
-The inspiration was from the need of having something i can carry everyday with me and listen music from with looking asthetic at the same times and some device with which i can use my wired earphones
+The inspiration was from the need of having something i can carry everyday with me and listen music from with looking asthetic at the same times and some device with which i can use my wired earphones. But the thing is that i like to use such a device that gives only audio output through the audio jack bcz when you unplug it . It suddenly starts to play and doesnt stop i like that env where i can listen to music and no one disturbs me that is who i am and who i always will be . So i though why not create an Mp3 player where it has cool aesthetic design and also fulfills my requirements so i started with a simple pcb and then i came upon dac onto that and the battery mangagement we will talk more about that later . but for now i then did the routing and created the case the case was also quite complicated which we will cover on how to create that in aa nutshell in the next segment.
+
+---
+
+## How to create the MP3 schematics
+
+I started by taking the raspberry pi pico cause it is the most easiest to work with microboard and also one of the most powerful ones also one more thing that attracted me about it was that it is micropython based which made the mechanics of code really easy for me to be done in the board itself. Then i came up with the decoupling of it and a switch for booting and stuff and then i stranded upon the micro sd slot the micro slot was a great option because it is one of the easiest to work with and works with the UART protocol which makes the wirinig also quite easy . Then i came upto the question okay i stored the data i have a microboard but what will i do of js the data the data also needs to play and what will play that that is the DAC and then i added the DAC to the MP3 Player which was quite complicated tho but still i added that and . It was a very difficult task to choose the right one for me , I Chose the PCM5102A for this and did stuff . I then continued to add the audio jack to it because the signals need to convert to sound somehow and i need my quite env after that i continued with working with the battery management and added the batter connector and the usb c for charging i also added the voltage regulator for stuff that requires 3.3v and 5v and handeled both separately and then i added some switches and lights for basic controls and also basic checks and then i chose to start with the rotatory encoders for more controls and then i switched to the pcb
+
+---
+
+## PCB
+
+The pcb was quite complicated tho ngl I had to take care that the digital and analog signals do not interfare each other and also i have to take care of the thickness of the routing at different position due to the power management system itself and different power requiremwents here and there and then i went onto vias and stuff and it was quite a fast task tho 
+
+---
+
+## Case
+
+Then i went onto the case and stuff . I wanted a quite aesthetic case tbh but at the same time I also wanted a case that fits my requirements like to be minimal and to signify that i am in my zone but still cool so i went with the orange and white color theme i know sounds a bit off but seems to fit my thingy and then what i did was i added little engravings at the sides of the case and added rotatory encoders to it i added two of them because i wanted to control the audio with one whereas the soong qeue with the other was quite a complicated task to add and make the cover for the rotatory encoders.
+
 
 ---
 
@@ -42,7 +61,7 @@ The table below lists all components used in the Minimal Player, matching the ex
 ---
 
 
-# Schematics 
+# Schematics with Picture
 
 <img width="1470" height="956" alt="Screenshot 2026-06-15 at 12 40 12 PM" src="https://github.com/user-attachments/assets/5edddf49-b923-4830-a87f-6e93ed8b63fe" />
 
@@ -51,14 +70,14 @@ The schematics were not that difficult because both the newer components had the
 
 <br>
 
-# PCB
+# PCB with picture
 <img width="1470" height="956" alt="Screenshot 2026-06-15 at 12 54 30 PM" src="https://github.com/user-attachments/assets/94ecb52f-38c6-4091-82ae-dcbe73b6e062" />
 
 Then I started with the PCB it was really the hard part to deal with. I started by placing all the components but there were like so many capacitors and resistors that were to be placed which made it so confusing to set it up . So I took the schematics as the reference and placed all the capacitors as it was in that and then I started with routing it and got to know that the traces with the power are to be kept thick and the digital can be thin so i did it all wrong at the first try but got it on the second try. Then was the time to fix the errors . I had like so many errors I had to deal with so i started with the short errors all the way to body malformed errors and stuff and did that at last by filling the zone with AGND as the net 
 
 <br>
 
-# CAD
+# CAD with picture
 <img width="1470" height="956" alt="Screenshot 2026-06-15 at 12 53 39 PM" src="https://github.com/user-attachments/assets/eed1ba7f-6fb6-49c0-9304-37c50ef74d38" />
 Onshape is the best . I started by drawing two rectangles and then i extruded the part that was common to only one bigger rectangle in which with the same center was the other rectange and then i extruded it then i made the sketched for those tiny rectangular holes onto the sides of it and with the help of linear pattern i redrew them all easily and then i removed them from the sides to a certain extent to give a retro vibe then i imported the step file for the pcb and then what I did was i made the lower case and the upper case derived some parts and sketches drew the rotatory encoder the buttons . Imported the step files for the springs and the battery and then made the assembly that was it in all 
 Onshape link : https://cad.onshape.com/documents/f82830b6c3d912c29ecf4908/w/00f5a3130b75aa3be964c3b3/e/6c625d5a5e73e1ecfabf8af3?renderMode=0&uiState=6a2fab96a442fa85ac58667a
