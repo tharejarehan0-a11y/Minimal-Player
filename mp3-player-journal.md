@@ -29,7 +29,7 @@ In this you can cut like 50 mins i wasted them really idk no why . I am really r
 
 # Previous Recordings
 These are the previous recordings i did for the research of this project and after all this i ended up with something like this and now its not that difficult
-![Screenshot 2026-06-14 at 7.04.47 AM.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzI5MjQsInB1ciI6ImJsb2JfaWQifX0=--efeb3a654a56021f6b91d26775b85125ed59b9d5/Screenshot 2026-06-14 at 7.04.47 AM.png)
+![Screenshot 2026-06-14 at 7.04.47 AM.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzI5MjQsInB1ciI6ImJsb2JfaWQifX0=--efeb3a654a56021f6b91d26775b85125ed59b9d5/Screenshot_2026-06-14_at_7.04.47 AM.png)
 
 
 ### Recording Links
