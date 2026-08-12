@@ -13,7 +13,7 @@
 
 # MP3 Player
 In this you can cut like 50 mins i wasted them really idk no why . I am really really sorry for that waste of time I apologize for that . In i did near about all the schematics js left with the dac and the amplifier and the display other all components i added in this now 
-![Screenshot 2026-06-13 at 6.38.48 PM.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzI1MTcsInB1ciI6ImJsb2JfaWQifX0=--69d9abc0b00f1821110891ca561729e0aa8c5af5/Screenshot 2026-06-13 at 6.38.48 PM.png)
+![Screenshot 2026-06-13 at 6.38.48 PM.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzI1MTcsInB1ciI6ImJsb2JfaWQifX0=--69d9abc0b00f1821110891ca561729e0aa8c5af5/Screenshot_2026-06-13_at_6.38.48_PM.png)
 
 
 ### Recording Links
@@ -53,7 +53,7 @@ These are the previous recordings i did for the research of this project and aft
 
 # The right schematics
 In this I have done the schematics of mp3 player after all component pondering and research i found the right components and the right datsheets and the second recording is for the troubleshooting and component changing a lil bit
-![Screenshot 2026-06-14 at 8.13.21 AM.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzI5MjUsInB1ciI6ImJsb2JfaWQifX0=--7e926912a5fd26150e0261f5766eea51740643af/Screenshot 2026-06-14 at 8.13.21 AM.png)
+![Screenshot 2026-06-14 at 8.13.21 AM.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzI5MjUsInB1ciI6ImJsb2JfaWQifX0=--7e926912a5fd26150e0261f5766eea51740643af/Screenshot_2026-06-14_at_8.13.21_AM.png)
  
 
 ### Recording Links
@@ -70,7 +70,7 @@ In this I have done the schematics of mp3 player after all component pondering a
 
 # Done placing the components
 I did the schematics now i have place all the footprints on to the pcb and assigned all the components 
-![Screenshot 2026-06-14 at 12.46.17 PM.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzMwMjEsInB1ciI6ImJsb2JfaWQifX0=--4de4f00b1430a02a0f3e7f35ee43664b81158b17/Screenshot 2026-06-14 at 12.46.17 PM.png)
+![Screenshot 2026-06-14 at 12.46.17 PM.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzMwMjEsInB1ciI6ImJsb2JfaWQifX0=--4de4f00b1430a02a0f3e7f35ee43664b81158b17/Screenshot_2026-06-14_at_12.46.17 PM.png)
 
 
 ### Recording Links
@@ -86,7 +86,7 @@ I did the schematics now i have place all the footprints on to the pcb and assig
 
 # PCB Routing Completed
 Did with Routing the pcb and now in the next i will js troubleshoot everything
-![Screenshot 2026-06-14 at 2.31.05 PM.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzMwNjgsInB1ciI6ImJsb2JfaWQifX0=--83e22d5910de4256e37836ed2d05826a0bd54154/Screenshot 2026-06-14 at 2.31.05 PM.png)
+![Screenshot 2026-06-14 at 2.31.05 PM.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzMwNjgsInB1ciI6ImJsb2JfaWQifX0=--83e22d5910de4256e37836ed2d05826a0bd54154/Screenshot_2026-06-14_at_2.31.05 PM.png)
 
 
 ### Recording Links
@@ -103,7 +103,7 @@ Did with Routing the pcb and now in the next i will js troubleshoot everything
 # Sides
 Made the sides of the case and a hole for the audio jack in onshape and also added some styling on the sides to with the linear pattern
 
-![Screenshot 2026-06-14 at 6.37.16 PM.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzMxOTksInB1ciI6ImJsb2JfaWQifX0=--a1e4b619af02aa8b88d91c8fc48791cca9ac238e/Screenshot 2026-06-14 at 6.37.16 PM.png)
+![Screenshot 2026-06-14 at 6.37.16 PM.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzMxOTksInB1ciI6ImJsb2JfaWQifX0=--a1e4b619af02aa8b88d91c8fc48791cca9ac238e/Screenshot_2026-06-14_at_6.37.16 PM.png)
 
 
 ### Recording Links
@@ -119,7 +119,7 @@ Made the sides of the case and a hole for the audio jack in onshape and also add
 
 # Case Completed 
 I js completed the case for the mp3 player and added the holes the holes for the pcb and the buttons are still left and the battery 3d model is still left idk if i will find one
-![Screenshot 2026-06-14 at 8.54.53 PM.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzMyODQsInB1ciI6ImJsb2JfaWQifX0=--7149e00692367ebc5b15cc818377313641890ee6/Screenshot 2026-06-14 at 8.54.53 PM.png)
+![Screenshot 2026-06-14 at 8.54.53 PM.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzMyODQsInB1ciI6ImJsb2JfaWQifX0=--7149e00692367ebc5b15cc818377313641890ee6/Screenshot_2026-06-14_at_8.54.53 PM.png)
 
 
 ### Recording Links
@@ -135,7 +135,7 @@ I js completed the case for the mp3 player and added the holes the holes for the
 
 # CAD
 Did the pcb and and at last did the cad also and added all the buttons needed and and rotatory encoders needed made the zine also
-![A5 - 2.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzM0NTAsInB1ciI6ImJsb2JfaWQifX0=--4d254989fefbb5b5868c4fcc2265959e19dbdcdc/A5 - 2.png)
+![A5 - 2.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzM0NTAsInB1ciI6ImJsb2JfaWQifX0=--4d254989fefbb5b5868c4fcc2265959e19dbdcdc/A5_-_2.png)
 
 
 ### Recording Links
@@ -151,7 +151,7 @@ Did the pcb and and at last did the cad also and added all the buttons needed an
 
 # Organised the repo
 I organised the repo added the production files and also added the firmware and the link to the onshape assembly in the readme and the bom also was added 
-![Screenshot 2026-06-15 at 1.10.45 PM.png](/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzM2OTYsInB1ciI6ImJsb2JfaWQifX0=--82fcdad6ff27c676d312e9842d5521da6b46b493/Screenshot 2026-06-15 at 1.10.45 PM.png)
+![Screenshot 2026-06-15 at 1.10.45 PM.png](https://fallout.hackclub.com/user-attachments/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzM2OTYsInB1ciI6ImJsb2JfaWQifX0=--82fcdad6ff27c676d312e9842d5521da6b46b493/Screenshot_2026-06-15_at_1.10.45_PM.png)
 
 
 ### Recording Links
