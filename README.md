@@ -1,4 +1,7 @@
 # Minimal Player
+
+**All the recordings are in JOURNAL.MD**
+
 <p align="center">
 <img width="420" height="595" alt="A5 - 2" src="https://github.com/user-attachments/assets/85ffbbcf-acc7-4567-b866-2f3be926f563" />
 </p>
